@@ -7,7 +7,7 @@ export default class BackToFirstPageButton extends Component {
         return (
             <Link to='/'>
                 <Button color="primary">Início</Button>
-            </Link>    
+            </Link>
         )
     }
 }

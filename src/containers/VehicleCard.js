@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import { Container, Card, CardBody, CardText, Row, Col, Jumbotron } from 'reactstrap'
 import { sdk as fipe } from 'fipe'
 import Title from '../components/Title'
-import BackButton from '../components/BackButton'
+import BackToFirstPageButton from '../components/BackToFirstPageButton'
 import autoBind from 'react-autobind'
 
 export default class VehicleCard extends Component {
@@ -74,7 +74,7 @@ export default class VehicleCard extends Component {
                         </Row>
                         <Row style={{ marginTop: '2.0em' }}>
                             <Col>
-                                <BackButton route='/' />
+                                <BackToFirstPageButton route='/' />
                             </Col>
                         </Row>
                     </Container>
