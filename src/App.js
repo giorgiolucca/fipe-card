@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container } from 'reactstrap'
 import Intro from './containers/Intro'
 import Brand from './containers/Brand'
