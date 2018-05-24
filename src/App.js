@@ -7,6 +7,7 @@ import Vehicle from './containers/Vehicle';
 import VehicleTypeChooser from './containers/VehicleTypeChooser'
 import VehicleCard from './containers/VehicleCard'
 import ModelChooser from './containers/ModelChooser';
+import GitHubForkRibbon from 'react-github-fork-ribbon';
 
 import { Route, Switch } from 'react-router-dom'
 
@@ -14,6 +15,11 @@ class App extends Component {
     render() {
         return (
             <div>
+                <GitHubForkRibbon href="//github.com/giorgiolucca/fipe-card"
+                    target="_blank"
+                    position="right">
+                    Fork me on GitHub
+                </GitHubForkRibbon>
                 <Switch>
                     <Container style={{ paddingTop: '2em' }}>
                         <Route exact path='/' component={Intro} />
