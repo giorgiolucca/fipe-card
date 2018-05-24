@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container } from 'reactstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Intro from './containers/Intro'
 import Brand from './containers/Brand'
 import Vehicle from './containers/Vehicle';
@@ -13,14 +13,12 @@ class App extends Component {
     render() {
         return (
             <div>
-                <Container style={{ paddingTop: '2em' }}>
-                    <Route exact path='/' component={Intro} />
-                    <Route path='/brand/:type' component={Brand} />
-                    <Route path='/vehicle-types' component={VehicleTypeChooser} />
-                    <Route path='/vehicle/:type/:brand' component={Vehicle} />
-                    <Route path='/vehicle-card/:type/:brand/:name/:id/:year' component={VehicleCard} />
-                    <Route path='/vehicle-models/:type/:brand/:id/:name' component={ModelChooser} />
-                </Container>
+                <Route exact path={`${process.env.PUBLIC_URL}/`} component={Intro} />
+                <Route path={`${process.env.PUBLIC_URL}/brand/:type`} component={Brand} />
+                <Route path={`${process.env.PUBLIC_URL}/vehicle-types`} component={VehicleTypeChooser} />
+                <Route path={`${process.env.PUBLIC_URL}/vehicle/:type/:brand`} component={Vehicle} />
+                <Route path={`${process.env.PUBLIC_URL}/vehicle-card/:type/:brand/:name/:id/:year`} component={VehicleCard} />
+                <Route path={`${process.env.PUBLIC_URL}/vehicle-models/:type/:brand/:id/:name`} component={ModelChooser} />
             </div>
         )
     }
