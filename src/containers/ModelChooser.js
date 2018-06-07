@@ -28,7 +28,7 @@ export default class ModelChooser extends Component {
     render() {
         return (
             <Jumbotron>
-                <Title text="Escolha um modelo" />
+                <Title>Escolha um modelo</Title>
                 {this.state.models.map((model, i) => 
                     <Row key={model.id} style={{ marginTop: '0.8em' }}>
                         <Col>

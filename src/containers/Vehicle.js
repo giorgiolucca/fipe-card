@@ -30,7 +30,7 @@ export default class Vehicle extends Component {
     render() {
         return (
             <Jumbotron>
-                <Title text="Informe o modelo do veículo" size="7" />
+                <Title size="7">Informe o modelo do veículo</Title>
                 <Row>
                     <Col>
                         <div className="suggestions">

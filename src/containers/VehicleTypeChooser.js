@@ -32,7 +32,7 @@ export default class VehicleTypeChooser extends Component {
     render() {
         return (
             <Jumbotron>
-                <Title text="Escolha um tipo de veículo" />
+                <Title>Escolha um tipo de veículo</Title>
                 <div style={{ marginTop: '2.0em' }}>
                     {this.state.types.map((type, i) => 
                         <Row key={type.name} style={{ marginTop: '0.8em' }}>

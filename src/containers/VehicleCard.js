@@ -43,7 +43,7 @@ export default class VehicleCard extends Component {
                     <Container>
                         <Row>
                             <Col>
-                                <Title text="Informações do veículo" size="7" />
+                                <Title size="7">Informações do veículo</Title>
                             </Col>
                         </Row>
                         <Row>
