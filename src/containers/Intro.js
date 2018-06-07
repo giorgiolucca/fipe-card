@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 const Intro = () => (
     <Jumbotron>
         <Title size="4">Fipe</Title>
-        <Paragraph text="Seja bem vindo! Através dessa ferramenta, você poderá obter informações da tabela Fipe de forma simples e rápida" />
+        <Paragraph>Seja bem vindo! Através dessa ferramenta, você poderá obter informações da tabela Fipe de forma simples e rápida</Paragraph>
         <Link to='/vehicle-types'>
             <Button color="primary">Começar!</Button>
         </Link>

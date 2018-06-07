@@ -1,9 +1,5 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Paragraph extends Component {
-    render() {
-        return (
-            <p className="lead">{this.props.text}</p>
-        )
-    }
-}
+const Paragraph = props => ( <p className="lead">{props.children}</p> )
+
+export default Paragraph
