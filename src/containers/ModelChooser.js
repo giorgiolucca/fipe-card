@@ -36,9 +36,9 @@ export default class ModelChooser extends Component {
                                 <Button size='lg' block>{model.name}</Button>
                             </Link>
                         </Col>
-                    </Row>                    
+                    </Row>
                 )}   
-            </Jumbotron>    
+            </Jumbotron>
         )
     }
 }

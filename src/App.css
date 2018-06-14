@@ -3,3 +3,12 @@ body {
     padding: 0;
     font-family: sans-serif;
 }
+
+.route-wrapper {
+  position: relative;
+}
+
+.route-wrapper > div {
+  position: absolute;
+  width: 100%;
+}
