@@ -13,7 +13,7 @@ import { AnimatedSwitch } from 'react-router-transition'
 class App extends Component {
     render() {
         return (
-            <AnimatedSwitch atEnter={{ opacity: 0.5 }}
+            <AnimatedSwitch atEnter={{ opacity: 0.8 }}
                 atLeave={{ opacity: 0 }}
                 atActive={{ opacity: 1 }}
                 className="route-wrapper">
