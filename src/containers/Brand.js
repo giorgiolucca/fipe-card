@@ -30,7 +30,7 @@ export default class Brand extends Component {
     render() {
         return (
             <Jumbotron>
-                <Title size="7">"Informe a marca"</Title>
+                <Title size="7">Informe a marca</Title>
                 <Row>
                     <Col>
                         <div className="suggestions">
